@@ -1,3 +1,5 @@
+package ejercicio1;
+
 class Animal {
     protected String nombre;
 
