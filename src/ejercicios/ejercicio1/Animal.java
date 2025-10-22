@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicios.ejercicio1;
 
 class Animal {
     protected String nombre;
@@ -7,8 +7,7 @@ class Animal {
         this.nombre = nombre;
     }
 
-    // Metodo general
     public void hacerSonido() {
-        System.out.println("El animal hace un sonido genérico.");
+        System.out.println(nombre + " hace un sonido random.");
     }
 }

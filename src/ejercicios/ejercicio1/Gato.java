@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicios.ejercicio1;
 
 class Gato extends Animal {
 

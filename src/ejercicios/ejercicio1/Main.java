@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicios.ejercicio1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -12,8 +12,12 @@ public class Main {
 
         // Creamos un Gato
         Gato miGato = new Gato("Michi");
+        Animal miAnimal = new Animal("Animal random");
 
-        // Llamamos al metodo hacerSonido()
+        out.println("\nLlamando al método hacerSonido() del Animal:");
+        miAnimal.hacerSonido();
+
+        out.println("\nLlamando al método hacerSonido() del Gato:");
         miGato.hacerSonido();
     }
 }
